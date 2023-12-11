@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Palette App</title>
+  </head>
+
+
+  <body>
+    <main>
+     
+      <form id="new-palette-form" aria-labelledby='form-heading'>
+   
+    <h1>Color Palette</h1>
+
+      <h2 id="form-heading" >Create A New Palette</h2>
+    
+
+      <label for="paletteName">Name Your Palette</label>
+      <input id="paletteName" type="text" name="paletteName" />
+
+
+        <p>Choose your colors:</p>
+
+        <section>
+
+          <input type="color" id="color1" name="color1" value="#e66465" />
+          <label for="color1">Color #1</label>
+
+        
+          <input type="color" id="color2" name="color2" value="#f6b73c" />
+          <label for="color2">Color #2</label>
+     
+
+          <input type="color" id="color3" name="color3" value="#1b6af2" />
+          <label for="color3">Color #3</label>
+        </section>
+
+
+    <fieldset>
+          <input type="radio" id="neutral" name="temp" value="neutral" checked/>
+          <label for="neutral">Neutral</label>
+
+          <input type="radio" id="cool" name="temp" value="cool" />
+          <label for="cool">Cool</label>
+
+          <input type="radio" id="warm" name="temp" value="warm" />
+          <label for="warm">Warm</label>
+     </fieldset>
+          <button>Submit</button>
+        </form>
+
+
+
+
+
+    </main>
+    <script type="module" src="/main.js"></script>
+
+
+
+  </body>
+
+
+</html>
